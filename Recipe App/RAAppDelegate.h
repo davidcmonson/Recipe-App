@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RAViewController.h"
 
 @interface RAAppDelegate : UIResponder <UIApplicationDelegate>
 
