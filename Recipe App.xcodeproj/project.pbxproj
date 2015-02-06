@@ -22,6 +22,7 @@
 		FC76FD811A82CAFD00505EC3 /* RAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76FD801A82CAFD00505EC3 /* RAViewController.m */; };
 		FC76FD841A82CCA300505EC3 /* RARecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76FD831A82CCA300505EC3 /* RARecipes.m */; };
 		FC76FD871A82CD1800505EC3 /* RecipesTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76FD861A82CD1800505EC3 /* RecipesTableViewDataSource.m */; };
+		FCC055301A84116900C9336C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC0552F1A84116900C9336C /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		FC76FD831A82CCA300505EC3 /* RARecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RARecipes.m; sourceTree = "<group>"; };
 		FC76FD851A82CD1800505EC3 /* RecipesTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesTableViewDataSource.h; sourceTree = "<group>"; };
 		FC76FD861A82CD1800505EC3 /* RecipesTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesTableViewDataSource.m; sourceTree = "<group>"; };
+		FCC0552E1A84116900C9336C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FCC0552F1A84116900C9336C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				71F67B60192C8D6A00E609F1 /* RAAppDelegate.m */,
 				FC76FD7F1A82CAFD00505EC3 /* RAViewController.h */,
 				FC76FD801A82CAFD00505EC3 /* RAViewController.m */,
+				FCC0552E1A84116900C9336C /* DetailViewController.h */,
+				FCC0552F1A84116900C9336C /* DetailViewController.m */,
 				FC76FD821A82CCA300505EC3 /* RARecipes.h */,
 				FC76FD831A82CCA300505EC3 /* RARecipes.m */,
 				FC76FD851A82CD1800505EC3 /* RecipesTableViewDataSource.h */,
@@ -260,6 +265,7 @@
 				FC76FD871A82CD1800505EC3 /* RecipesTableViewDataSource.m in Sources */,
 				71F67B61192C8D6A00E609F1 /* RAAppDelegate.m in Sources */,
 				FC76FD811A82CAFD00505EC3 /* RAViewController.m in Sources */,
+				FCC055301A84116900C9336C /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

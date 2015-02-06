@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "RecipesTableViewDataSource.h"
+#import "DetailViewController.h"
+
 
 @interface RAViewController : UIViewController
+
 
 @end

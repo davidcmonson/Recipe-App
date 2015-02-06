@@ -7,12 +7,15 @@
 //
 
 #import "RAViewController.h"
+#import "DetailViewController.h"
+#import "RARecipes.h"
 
 
-@interface RAViewController ()
+@interface RAViewController () <UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) RecipesTableViewDataSource *dataSource;
+
 
 @end
 
@@ -22,15 +25,28 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
-    
+
     
     self.dataSource = [RecipesTableViewDataSource new];
     self.tableView.dataSource = self.dataSource;
+    self.tableView.delegate = self;
     [self.dataSource registerTableView:self.tableView];
     [self.view addSubview:self.tableView];
     
     
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//    NSLog([NSString stringWithFormat:@"%ld", (long)indexPath.row]);
+    
+    DetailViewController *dvc = [DetailViewController new];
+    dvc.selectedRow = indexPath.row;
+    [self.navigationController pushViewController:dvc animated:YES];
+
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
